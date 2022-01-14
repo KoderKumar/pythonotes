@@ -1,0 +1,83 @@
+
+print("Guess the correct animal")
+
+secret_word = "Tiger"
+guess = ""
+
+while guess != secret_word:
+    guess = input("Enter guess: ")
+
+print("First round clear")
+
+print("Second word")
+second_word = "Elephant"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Third round clear")
+
+print("Fourth word")
+second_word = "Hippo"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Fourth round clear")
+
+print("Fifth word")
+second_word = "Zebra"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Fifth round clear")
+
+print("Sixth word")
+second_word = "Owl"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Sixth round clear")
+
+print("Seventh word")
+second_word = "Frog"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Seventh round clear")
+
+print("Eight word")
+second_word = "Monkey"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Eight round clear")
+
+print("Ninth word")
+second_word = "Panda"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Ninth round clear")
+
+print("Tenth word")
+second_word = "Panda"
+guess = ""
+
+while guess != second_word:
+    guess = input("Enter guess: ")
+
+print("Tenth round clear")
+

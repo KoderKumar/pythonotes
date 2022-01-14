@@ -1,0 +1,26 @@
+print("Which type of number do you want to convert")
+print("Binary")
+print("Hexa decimal")
+print("Octal decimal\n")
+
+a = str(input("Which type of number do you want to convert: "))
+
+
+if a == "Binary":
+    x = int(input("Which number do you want to convert in binary: "))
+    print(bin(x))
+
+if a == "Hexa decimal":
+    y = int(input("Which number do you want to convert in Hexa decimal: "))
+    print(hex(y))
+
+if a == "Octal decimal":
+    z = int(input("Which number do you want to convert in Octal decimal: "))
+    print(oct(z))
+
+else:
+    print("Unable to perform your request")
+
+
+
+

@@ -1,0 +1,5 @@
+from math import *
+
+x = int(input("Type the number for square root"))
+
+print(sqrt(x))

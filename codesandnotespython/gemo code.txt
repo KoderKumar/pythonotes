@@ -1,0 +1,14 @@
+
+name = input("Enter your name: ")
+print("Hello " + name + "!")
+
+print("My name is gemo")
+
+print("So, " + name + " what is your favorite color??")
+color = input("Enter your favorite color: ")
+print( "Wow" + color + " is my favourite colour too")
+
+print("Hey" + name + " what is your age")
+age = int(input("Enter age: "))
+
+int(print("So over all your name is " + name + "\nyour favourite color is " + color + "\nand your age is " + age + ""))

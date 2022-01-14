@@ -1,0 +1,23 @@
+print("How many values do you want in table\n")
+
+x = int(input("Enter first value: "))
+y = int(input("Enter second value: "))
+z = int(input("Enter third value: "))
+a = int(input("Enter fourth value: "))
+b = int(input("Enter fifth value: "))
+c = int(input("Enter sixth value: "))
+
+print("\nDo you want to know to highest number write max\nor want to know the lowest write min")
+
+s = str(input("Enter max or min: "))
+
+if s == 'max':
+    print(max(x, y, z, a, b, c))
+
+if s == 'min':
+    print(min(x, y, z, a, b, c))
+
+else:
+    print("Cannot proceed you request")
+
+

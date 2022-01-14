@@ -1,0 +1,7 @@
+x = int(input("which number do you want to start a count: "))
+v = int(input("which number do you want to end a count: "))
+
+for i in range(x, v + 1):
+	print(i)
+if x == 0 or v == 0:
+	print("Cannot complete your request")

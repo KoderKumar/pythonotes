@@ -1,0 +1,12 @@
+	print("Second programme be ready")
+	c = input("Enter a first-value")
+	f = int(c)
+	d = input("Enter a second-value")
+	m = int(d)
+	
+	if (c>d):
+   	 print("??First-value is greater than second")
+	if (d>c):
+ 	   print("??Second-value is greater than first")
+	if (c==d and d==c):
+  	  print("??Equal??")

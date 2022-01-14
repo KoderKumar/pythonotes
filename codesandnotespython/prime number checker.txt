@@ -1,0 +1,20 @@
+o = int(input("Enter a number to check it is prime or not : "))
+
+Number = True
+
+i = 2
+
+while i < o:
+
+    if o %i== 0: Number = False
+
+    i += 1
+
+if Number == True:
+
+    print("Prime no.")
+
+else:
+    print("System error prime number\n not FOUND")
+
+

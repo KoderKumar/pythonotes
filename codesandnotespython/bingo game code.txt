@@ -1,0 +1,8 @@
+x = int(input("Enter a number in which you don't have to speak in bingo: "))
+y = int(input("Where you want to end bingo: "))
+w = 0
+while w < y:
+	w += 1
+	if w % x == 0:
+		continue
+	print(w)
